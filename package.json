@@ -1,0 +1,27 @@
+{
+  "name": "rest-api-nodejs",
+  "version": "1.0.0",
+  "description": "This project was created by Bhakti Buana.\r Don't forget to support me with:\r - Subscribe my YouTube channel [Baby Programming](https://www.youtube.com/c/BabyProgramming).\r - Follow my instagram [bhakti_buana](https://www.instagram.com/bhakti_buana).",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaktibuana/rest-api-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhaktibuana/rest-api-nodejs/issues"
+  },
+  "homepage": "https://github.com/bhaktibuana/rest-api-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.14"
+  }
+}
