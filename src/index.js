@@ -8,6 +8,12 @@ app.use(cors());
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+
+// app.get('/api/l', (req, res) => {
+//   console.console.log("Respon Sukses");
+//   res.send("Respon Sukses");
+  
+// })
 //read
 app.get('/api/jamur', (req, res) => {
   const sqlQuery = "SELECT * FROM must";
