@@ -1,5 +1,5 @@
 runtime: nodejs16
-service: tcc
+service: src
 
 handlers: 
   - url: /
