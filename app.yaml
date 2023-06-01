@@ -1,10 +1,10 @@
 runtime: nodejs18
-service: src
+service: tcc
 
 handlers: 
   - url: /
-    static_files: build/index.html
-    upload: build/index.html
+    static_files: build/index.js
+    upload: build/index.js
   
   - url: /(.*)
     static_files: build/\1
