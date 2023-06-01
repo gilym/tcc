@@ -1,14 +1,10 @@
 runtime: nodejs16
 service: tcc
 
-# handlers: 
-#   - url: /
-#     static_files: build/index.js
-#     upload: build/index.js
-  
-#   - url: /(.*)
-#     static_files: build/\1
-#     upload: build/(.*)
+handlers: 
+  - url: /(.*\.(js|css|ico|woff|woff2|ttf|otf|json))
+    static_files: build/\1
+    upload: build/.*\.(js|css|ico|woff|woff2|ttf|otf|json)
 
-#   - url: /.*
-#     static_dir: build 
+  - url: /.*
+    script: auto
